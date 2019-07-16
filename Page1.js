@@ -1,8 +1,8 @@
 $(document).ready(function(){
   $(".GameInfoHide").click(function(){
-    $(".GameInfoHide").hide();
+    $(".welcomeParagraph").hide();
   });
   $(".GameInfoShow").click(function(){
-    $(".GameInfoHide").show();
+    $(".welcomeParagraph").show();
   });
 });

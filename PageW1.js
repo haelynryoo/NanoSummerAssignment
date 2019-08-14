@@ -1,7 +1,7 @@
 //welcome paragraph hide/show
 var AgilityWolf = 0
 var StregnthWolf = 0
-var Healing Skills = 0
+var HealingSkills = 0
 
 
 $(document).ready(function(){

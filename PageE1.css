@@ -1,5 +1,16 @@
 /* buttons --------------------------------------------------------------- */
-button.GameInfoHide{
+.GameInfoHide{
+  //work on
+  background-color: #7cdec4;
+    /* border: none; */
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    /* text-decoration: none; */
+    display: inline-block;
+    font-size: 16px;
+  }
+.GameInfoShow{
   //work on
   background-color: #7cdec4;
     border: none;
@@ -10,7 +21,7 @@ button.GameInfoHide{
     display: inline-block;
     font-size: 16px;
   }
-button.GameInfoShow{
+.RoleInfoShow{
   //work on
   background-color: #7cdec4;
     border: none;
@@ -21,18 +32,7 @@ button.GameInfoShow{
     display: inline-block;
     font-size: 16px;
   }
-button.RoleInfoShow{
-  //work on
-  background-color: #7cdec4;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-  }
-button.RolesInfoHide{
+.RolesInfoHide{
   //work on
   background-color: #7cdec4;
     border: none;
@@ -43,7 +43,7 @@ button.RolesInfoHide{
     display: inline-block;
     font-size: 16px;
 }
-button.LegMuscleTrait{
+.HeightFatTrait{
   //work on
   background-color: #7cdec4;
     border: none;
@@ -54,7 +54,7 @@ button.LegMuscleTrait{
     display: inline-block;
     font-size: 16px;
   }
-button.LMInfoHide{
+.HFInfoHide{
   //work on
   background-color: #7cdec4;
     border: none;
@@ -65,7 +65,7 @@ button.LMInfoHide{
     display: inline-block;
     font-size: 16px;
   }
-button.StrongJawTrait{
+.SmellStregnthTrait{
   //work on
   background-color: #7cdec4;
     border: none;
@@ -76,7 +76,7 @@ button.StrongJawTrait{
     display: inline-block;
     font-size: 16px;
   }
-button.SJInfoHide{
+.SSInfoHide{
   //work on
   background-color: #7cdec4;
     border: none;
@@ -87,7 +87,7 @@ button.SJInfoHide{
     display: inline-block;
     font-size: 16px;
   }
-button.LoyaltyDeterminationTrait{
+.TuskStregnthTrait{
   //work on
   background-color: #7cdec4;
     border: none;
@@ -98,7 +98,7 @@ button.LoyaltyDeterminationTrait{
     display: inline-block;
     font-size: 16px;
   }
-button.LDInfoHide{
+.TSInfoHide{
   //work on
   background-color: #7cdec4;
   border: none;

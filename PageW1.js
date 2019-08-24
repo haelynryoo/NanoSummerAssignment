@@ -1,7 +1,8 @@
 //welcome paragraph hide/show
-var AgilityWolf = 0
-var StregnthWolf = 0
-var HealingSkills = 0
+var LMLevel = 0
+var SJLevel = 0
+var LDLevel = 0
+var
 
 
 $(document).ready(function(){

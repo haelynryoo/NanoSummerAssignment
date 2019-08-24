@@ -1,7 +1,7 @@
 //welcome paragraph hide/show
-var AgilityWolf = 0
-var StregnthWolf = 0
-var HealingSkills = 0
+var SSLevel = 0
+var HFLevel= 0
+var TSLevel = 0
 
 
 $(document).ready(function(){
@@ -14,28 +14,28 @@ $(document).ready(function(){
 });
 //LM role hide/show
 $(document).ready(function(){
-  $(".LMInfoHide").click(function(){
-    $(".LMParagraph").hide();
+  $(".SSInfoHide").click(function(){
+    $(".SSParagraph").hide();
   });
-  $(".LegMuscleTrait").click(function(){
-    $(".LMParagraph").show();
+  $(".SmellStregnthTrait").click(function(){
+    $(".SSParagraph").show();
   });
 });
 //Warrior role hide/show
 $(document).ready(function(){
-  $(".SJInfoHide").click(function(){
-    $(".SJParagraph").hide();
+  $(".HFInfoHide").click(function(){
+    $(".HFParagraph").hide();
   });
-  $(".StrongJawTrait").click(function(){
-    $(".SJParagraph").show();
+  $(".HeightFatTrait").click(function(){
+    $(".HFParagraph").show();
   });
 });
 //Hunters role hide/show
 $(document).ready(function(){
-  $(".LDInfoHide").click(function(){
-    $(".LDParagraph").hide();
+  $(".TSInfoHide").click(function(){
+    $(".TSParagraph").hide();
   });
-  $(".").click(function(){
-    $(".LDParagraph").show();
+  $(".TuskStregnthTrait").click(function(){
+    $(".TSParagraph").show();
   });
 });

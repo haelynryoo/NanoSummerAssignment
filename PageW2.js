@@ -1,36 +1,79 @@
-var energy = 30;
-var LMLevel = 0;
-  var LMexp = 0;
-var SJLevel = 0;
-  var SJexp = 0;
-var LDLevel = 0;
-  var LDexp = 0;
+let energy = 30;
+let LMLevel = 0;
+  let LMexp = 0;
+let SJLevel = 0;
+  let SJexp = 0;
+let LDLevel = 0;
+  let LDexp = 0;
 
 //sleep button code
+//LMTraining code
+const start = document.getElementById("LMStart");
+const quiz = document.getElementById("LMQuiz");
+const question = document.getElementById("questions");
+const choiceA = document.getElementById("LMA");
+const choiceB = document.getElementById("LMB");
+const choiceC = document.getElementById("LMC");
+const choiceC = document.getElementById("LMD");
+const progress = document.getElementById("LMProgress");
+const score = document.getElementById("LMScore");
 
-//LM Training code
+let LDTraitQs = [{
 
-//SJ Training code
+},
+{
 
-//LD Trait
+},
+{
 
-//find food trait
-$(document).ready(function(){
+},
+{
+
+},
+{
+
+},
+{
+
+},
+{
+
+},
+{
+
+},
+{
+
+},
+{
+
+}];
+// //LM Training code
+// let LDTraitQs = ['','','','','','','','','','',''];
+// //SJ Training code
+// let LDTraitQs = ['','','','','','','','','','',''];
+// //LD Trait
+// let LDTraitQs = ['','','','','','','','','','',''];
+
+
+//find food trait---------------------------------
+// $(document).ready(function(){
 $(".FindFood").click(function() {
   console.log(hi)
-var findFoodRandom = Math.floor(Math.random() * 2);
+let findFoodRandom = Math.floor(Math.random() * 2);
 console.log(mathRandomFoodWorks);
 if (findFoodRandom = 0){
   energy = energy + 25;
   console.log(energyPlus25);
-$(".energyCount").html("You currently have" + energy + "Energy Units ");
+
 console.log(updateEnergyParaGood);
 }
 else if (findFoodRandom = 1){
   energy = energy - 5;
   console.log(energyMinus5);
-  $(".energyCount").html("You currently have" + energy + "Energy Units ");
 console.log(updateEnergyParaBad);
 }
 });
+
+$(".energyCount").html('You currently have" + energy + "Energy Units ');
 });

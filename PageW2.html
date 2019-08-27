@@ -1,5 +1,20 @@
 <button class = "SleepButton">Sleep</button>
 <button class = "LMTraining">Train Leg Muscle</button>
+<div class="LMTrainingQuiz">
+  <div id="LMStart">Start LEG MUSCLE training</div>
+<div id="LMQuiz" style="display: none">
+  <div id="questions"></div>
+
+  <div id="choices">
+      <div class="choice" id="A" onclick="checkAnswer('LMA')"></div>
+      <div class="choice" id="B" onclick="checkAnswer('LMB')"></div>
+      <div class="choice" id="C" onclick="checkAnswer('LMC')"></div>
+      <div class="choice" id="C" onclick="checkAnswer('LMD')"></div>
+</div>
+    <div id="progress"></div>
+</div>
+  <div id="score" style="display: none"></div>
+</div>
 <button class = "SJTraining">Train Jaw Stregnth</button>
 <button class = "LDTraining">Train Loyalty and Determination</button>
 <button class = "FindFood"> Find Food </button>

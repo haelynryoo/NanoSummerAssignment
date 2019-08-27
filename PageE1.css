@@ -1,5 +1,5 @@
 /* buttons --------------------------------------------------------------- */
-.GameInfoHide{
+button.GameInfoHide{
   //work on
   background-color: #7cdec4;
     /* border: none; */
@@ -10,7 +10,7 @@
     display: inline-block;
     font-size: 16px;
   }
-.GameInfoShow{
+button.GameInfoShow{
   //work on
   background-color: #7cdec4;
     border: none;
@@ -21,7 +21,7 @@
     display: inline-block;
     font-size: 16px;
   }
-.RoleInfoShow{
+button.RoleInfoShow{
   //work on
   background-color: #7cdec4;
     border: none;
@@ -32,7 +32,7 @@
     display: inline-block;
     font-size: 16px;
   }
-.RolesInfoHide{
+button.RolesInfoHide{
   //work on
   background-color: #7cdec4;
     border: none;
@@ -43,7 +43,7 @@
     display: inline-block;
     font-size: 16px;
 }
-.HeightFatTrait{
+button.HeightFatTrait{
   //work on
   background-color: #7cdec4;
     border: none;
@@ -54,7 +54,7 @@
     display: inline-block;
     font-size: 16px;
   }
-.HFInfoHide{
+button.HFInfoHide{
   //work on
   background-color: #7cdec4;
     border: none;
@@ -65,7 +65,7 @@
     display: inline-block;
     font-size: 16px;
   }
-.SmellStregnthTrait{
+button.SmellStregnthTrait{
   //work on
   background-color: #7cdec4;
     border: none;
@@ -76,7 +76,7 @@
     display: inline-block;
     font-size: 16px;
   }
-.SSInfoHide{
+button.SSInfoHide{
   //work on
   background-color: #7cdec4;
     border: none;
@@ -87,7 +87,7 @@
     display: inline-block;
     font-size: 16px;
   }
-.TuskStregnthTrait{
+button.TuskStregnthTrait{
   //work on
   background-color: #7cdec4;
     border: none;
@@ -98,7 +98,7 @@
     display: inline-block;
     font-size: 16px;
   }
-.TSInfoHide{
+button.TSInfoHide{
   //work on
   background-color: #7cdec4;
   border: none;

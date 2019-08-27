@@ -1,71 +1,54 @@
 //welcome paragraph hide/show
-var LMLevel = 0
-var SJLevel = 0
-var LDLevel = 0
-
-$(document).ready(function(){
-  $("button").click(function(){
-    $("p").slideToggle();
-  });
-});
-$(document).ready(function(){
-  $("button").click(function(){
-    $("p").slideToggle();
-  });
-});
-$(document).ready(function(){
-  $("button").click(function(){
-    $("p").slideToggle();
-  });
-});
-$(document).ready(function(){
-  $("button").click(function(){
-    $("p").slideToggle();
-  });
-});
-$(document).ready(function(){
-  $("button").click(function(){
-    $("p").slideToggle();
-  });
-});
-$(document).ready(function(){
-  $("button").click(function(){
-    $("p").slideToggle();
-  });
-});
-$(document).ready(function(){
-  $("button").click(function(){
-    $("p").slideToggle();
-  });
-});
-
-// $(document).ready(function(){
-//   $(".GameInfoHide").click(function(){
-//     $(".welcomeParagraph").hide();
-//   });
-//   $(".GameInfoShow").click(function(){
-//     $(".welcomeParagraph").show();
-//   });
-// });
-// //LM role hide/show
-// $(document).ready(function(){
-//   $(".LMInfoHide").click(function(){
-//     $(".LMParagraph").hide();
-//   });
-//   $(".LegMuscleTrait").click(function(){
-//     $(".LMParagraph").show();
-//   });
-// });
+// var LMLevel = 0
+// var SJLevel = 0
+// var LDLevel = 0
 //
-// //Warrior role hide/show
-// $(document).ready(function(){
-//   $(".SJInfoHide").click(function(){
-//     $(".SJParagraph").hide();
-//   });
-//   $(".StrongJawTrait").click(function(){
-//     $(".SJParagraph").show();
-//   });
-// });
+        // $(document).ready(function(){
+            //   $(".LMTrait").click(function(){
+        //     console.log(2)
+        //     $("LMPara").slideToggle();
+          //     console.log(1)
+    //   });
+    // });
+    // $(document).ready(function(){
+    //   $("SJTrait").click(function(){
+    //     $("SJPara").slideToggle();
+    //   });
+      // });
+      // $(document).ready(function(){
+      //   $("LDTrait").click(function(){
+      //     $("LDPara").slideToggle();
+      //   });
+      //     });
+
+
+$(document).ready(function(){
+  $(".LMTrait").click(function(){
+    $(".LMPara").show();
+  });
+  $(".LMTrait").click(function(){
+    $(".LMPara").hide();
+  });
+});
+//LM role hide/show
+$(document).ready(function(){
+  $(".SJTrait").click(function(){
+    $(".SJPara").show();
+  });
+  $(".SJTrait").click(function(){
+    $(".SJPara").hide();
+  });
+});
+
+//Warrior role hide/show
+$(document).ready(function(){
+  $(".LDTrait").click(function(){
+    $(".LDPara").show();
+  });
+  $(".LDTrait").click(function(){
+    $(".LDPara").hide();
+  });
+});
 // //Hunters role hide/show
 // $(document).ready(function(){
 //   $(".LDInfoHide").click(function(){

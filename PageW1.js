@@ -26,7 +26,7 @@ $(document).ready(function(){
   $(".LMTrait").click(function(){
     $(".LMPara").show();
   });
-  $(".LMTrait").click(function(){
+  $(".LMHide").click(function(){
     $(".LMPara").hide();
   });
 });
@@ -35,7 +35,7 @@ $(document).ready(function(){
   $(".SJTrait").click(function(){
     $(".SJPara").show();
   });
-  $(".SJTrait").click(function(){
+  $(".SJHide").click(function(){
     $(".SJPara").hide();
   });
 });
@@ -45,7 +45,7 @@ $(document).ready(function(){
   $(".LDTrait").click(function(){
     $(".LDPara").show();
   });
-  $(".LDTrait").click(function(){
+  $(".LDHide").click(function(){
     $(".LDPara").hide();
   });
 });

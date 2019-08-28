@@ -1,21 +1,59 @@
 <button class = "SleepButton">Sleep</button>
+<p></p>
+<!-- SJ Training ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 <button class = "LMTraining">Train Leg Muscle</button>
 <div class="LMTrainingQuiz">
-  <div id="LMStart">Start LEG MUSCLE training</div>
+  <div id="LMStart"></div>
 <div id="LMQuiz" style="display: none">
-  <div id="questions"></div>
+  <div id="LMquestions"></div>
 
-  <div id="choices">
-      <div class="choice" id="A" onclick="checkAnswer('LMA')"></div>
-      <div class="choice" id="B" onclick="checkAnswer('LMB')"></div>
-      <div class="choice" id="C" onclick="checkAnswer('LMC')"></div>
-      <div class="choice" id="C" onclick="checkAnswer('LMD')"></div>
+  <div id="LMchoices">
+      <div class="LMchoice" id="A" onclick="checkAnswer('LMA')"></div>
+      <div class="LMchoice" id="B" onclick="checkAnswer('LMB')"></div>
+      <div class="LMchoice" id="C" onclick="checkAnswer('LMC')"></div>
+      <div class="LMchoice" id="C" onclick="checkAnswer('LMD')"></div>
 </div>
-    <div id="progress"></div>
+    <div id="LMprogress"></div>
 </div>
-  <div id="score" style="display: none"></div>
+  <div id="LMscore" style="display: none"></div>
 </div>
+<!-- //SJ Training ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<p></p>
 <button class = "SJTraining">Train Jaw Stregnth</button>
-<button class = "LDTraining">Train Loyalty and Determination</button>
+<div class="SJTrainingQuiz">
+  <div id="SJStart"></div>
+<div id="SJQuiz" style="display: none">
+  <div id="SJquestions"></div>
+<div id="SJchoices">
+      <div class="SJchoice" id="A" onclick="checkAnswer('SJA')"></div>
+      <div class="SJchoice" id="B" onclick="checkAnswer('SJB')"></div>
+      <div class="SJchoice" id="C" onclick="checkAnswer('SJC')"></div>
+      <div class="SJchoice" id="C" onclick="checkAnswer('SJD')"></div>
+</div>
+    <div id="SJprogress"></div>
+</div>
+  <div id="SJscore" style="display: none"></div>
+</div>
+<!-- LD Training ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<p></p>
+<button class = "LDTraining">Loyalty Determination trait</button>
+<div class="LDTrainingQuiz">
+  <div id="LDStart"></div>
+<div id="LDQuiz" style="display: none">
+  <div id="LDquestions"></div>
+<div id="LDchoices">
+      <div class="LDchoice" id="A" onclick="checkAnswer('LDA')"></div>
+      <div class="LDchoice" id="B" onclick="checkAnswer('LDB')"></div>
+      <div class="LDchoice" id="C" onclick="checkAnswer('LDC')"></div>
+      <div class="LDchoice" id="C" onclick="checkAnswer('LDD')"></div>
+</div>
+    <div id="LDprogress"></div>
+</div>
+  <div id="LDscore" style="display: none"></div>
+</div>
+<p></p>
+<!-- ~~~~~~~~~~~FIND FOOD~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 <button class = "FindFood"> Find Food </button>
+<p></p>
+<!-- ~~~~~~~~~~~~ENERGY COUNT~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 <p class = "energyCount"> You currently have 30 Energy Units </p>

@@ -10,9 +10,9 @@ let LDLevel = 0;
 //LMTraining code
 LMStart.addEventListener("click",LMTraining);
 console.log(hi)
-const start = document.getElementById("LMStart");
-const quiz = document.getElementById("LMQuiz");
-const question = document.getElementById("LMQuestions");
+const LMstart = document.getElementById("LMStart");
+const LMquiz = document.getElementById("LMQuiz");
+const LMquestion = document.getElementById("LMQuestions");
 const LMChoiceA = document.getElementById("LMA");
 const LMChoiceB = document.getElementById("LMB");
 const LMChoiceC = document.getElementById("LMC");
@@ -46,6 +46,25 @@ correct : "B"},
   LMChoiceD : "The Ugly Duckling",
   correct : "C"},
 ];
+console.log("LM TEST")
+const LMlastQuestion = LMquestions.legnth - 1;
+let LMcurrentQuestion = 0;
+console.log("hi")
+function LMrenderQuestion() {
+let LMq = LMquestions[LMcurrentQuestion];
+LMquestion.innerHTML = "<p>" + LMq.question + "</p>"
+LMChoiceA.innerHTML = q.LMChoiceA;
+LMChoiceB.innerHTML = q.LMChoiceB
+LMChoiceC.innerHTML = q.LMChoiceC
+LMChoiceD.innerHTML = q.LMChoiceD
+}
+function renderProgress(){
+for(let LMqIndex = 0; qIndex <= LMlastQuestion; LMqIndex++){
+LMprogress.innerHTML += "<div class = 'prog' id =" + LMqIndex +"><>"
+}
+
+}
+
 
 // //SJ Training code
 const SJstart = document.getElementById("SJStart");
@@ -56,102 +75,122 @@ const SJChoiceB = document.getElementById("SJB");
 const SJChoiceC = document.getElementById("SJC");
 const SJChoiceD = document.getElementById("SJD");
 const progress = document.getElementById("SJProgress");
-const score = document.getElementById("SJScore");
+const LMscore = document.getElementById("SJScore");
 let SJTraitQs = [{
-  question : "Every single dog has decended from what animal",
+  LMquestion : "Every single dog has decended from what animal",
     LMChoiceA : "Foxes",
     LMChoiceB : "Wolves",
     LMChoiceC : "Penguin",
     LMChoiceD : "Horses",
-    correct : "B"
+    LMcorrect : "B"
 },
 {
-  question : "In which fairytale does the wolf dress up as a grandmother",
+  LMquestion : "In which fairytale does the wolf dress up as a grandmother",
     LMChoiceA : "Little Red Ridinghood",
     LMChoiceB : "Snow White",
     LMChoiceC : "Three Little Pigs",
     LMChoiceD : "The Ugly Duckling",
-    correct : "A"
+    LMcorrect : "A"
 },
 {
-  question : "In which fairytale does the wolf attack pigs",
+  LMquestion : "In which fairytale does the wolf attack pigs",
     LMChoiceA : "Beauty and the Beast",
     LMChoiceB : "Cinderella",
     LMChoiceC : "Three Little Pigs",
     LMChoiceD : "The Ugly Duckling",
-    correct : "C"
+    LMcorrect : "C"
 },
 {
-  question : "What is a wolfs genus",
+  LMquestion : "What is a wolfs genus",
     LMChoiceA : "Lupin",
     LMChoiceB : "Lupis",
     LMChoiceC : "Canine",
     LMChoiceD : "Canis",
-    correct : "C"
+    LMcorrect : "C"
 }];
+console.log("h")
+const SJlastQuestion = SJquestions.legnth - 1;
+let SJcurrentQuestion = 0;
+console.log("hi")
+function SJrenderQuestion() {
+let SJq = SJquestions[SJcurrentQuestion];
+question.innerHTML = "<p>" + q.question + "</p>"
+SJChoiceA.innerHTML = q.LMChoiceA;
+SJChoiceB.innerHTML = q.LMChoiceB
+SJChoiceC.innerHTML = q.LMChoiceC
+SJChoiceD.innerHTML = q.LMChoiceD
+}
+function renderProgress(){
+for(let SJqIndex = 0; qIndex <= SJlastQuestion; SJqIndex++){
+SJprogress.innerHTML += "<div class = 'SJprog' id =" + SJqIndex +"><>"
+}
+
+}
+SJTrainingQuiz.addEventListener("click",startQuiz);
+
 // //LD Trait
-const LMTrainingQuiz = document.getElementById("LDStart");
-const LMquiz = document.getElementById("LDQuiz");
-const LMquestion = document.getElementById("LDQuestions");
-const LMChoiceA = document.getElementById("LDA");
-const LMChoiceB = document.getElementById("LDB");
-const LMChoiceC = document.getElementById("LDC");
-const LMChoiceD = document.getElementById("LDD");
-const progress = document.getElementById("LDProgress");
-const score = document.getElementById("LDScore");
+const LDTrainingQuiz = document.getElementById("LDStart");
+const LDquiz = document.getElementById("LDQuiz");
+const LDquestion = document.getElementById("LDQuestions");
+const LDChoiceA = document.getElementById("LDA");
+const LDChoiceB = document.getElementById("LDB");
+const LDChoiceC = document.getElementById("LDC");
+const LDChoiceD = document.getElementById("LDD");
+const LDprogress = document.getElementById("LDProgress");
+const LDscore = document.getElementById("LDScore");
 let LDTraitQs = [
 {
   LMquestion : "What family is the wolf in?",
-    LMChoiceA : "Feline",
-    LMChoiceB : "Canine",
-    LMChoiceC : "Anphibian",
-    LMChoiceD : "Arthropods",
-    LMcorrect : "B"
+    LDChoiceA : "Feline",
+    LDChoiceB : "Canine",
+    LDChoiceC : "Anphibian",
+    LDChoiceD : "Arthropods",
+    LDcorrect : "B"
 },
 {
-  question : "Which is the wolves closest relative?",
-    LMChoiceA : "Lion",
-    LMChoiceB : "Tiger",
-    LMChoiceC : "Frog",
-    LMChoiceD : "Dog",
-    LMcorrect : "D"
+  LDquestion : "Which is the wolves closest relative?",
+    LDChoiceA : "Lion",
+    LDChoiceB : "Tiger",
+    LDChoiceC : "Frog",
+    LDChoiceD : "Dog",
+    LDcorrect : "D"
 },
 {
-  LMquestion : "What is a group of wolves called?",
-  LMChoiceA : "Pride",
-  LMChoiceB : "Pack",
-  LMChoiceC : "Colony",
-  LMChoiceD : "Troop",
-  LMcorrect : "B"
+  LDquestion : "What is a group of wolves called?",
+  LDChoiceA : "Pride",
+  LDChoiceB : "Pack",
+  LDChoiceC : "Colony",
+  LDChoiceD : "Troop",
+  LDcorrect : "B"
 },
 {
-  LMquestion : "How do wolves mark their territory",
-    LMChoiceA : "Fighting",
-    LMChoiceB : "Telling other wolves to back off",
-    LMChoiceC : "Peeing",
-    LMChoiceD : "Rolling around in the snow",
-    LMcorrect : "C"
+  LDquestion : "How do wolves mark their territory",
+    LDChoiceA : "Fighting",
+    LDChoiceB : "Telling other wolves to back off",
+    LDChoiceC : "Peeing",
+    LDChoiceD : "Rolling around in the snow",
+    LDcorrect : "C"
 }];
-
-  console.log("h")
-const lastQuestion = questions.legnth - 1;
-let currentQuestion = 0;
+console.log("h")
+const LDlastQuestion = LDquestions.legnth - 1;
+let LDcurrentQuestion = 0;
 console.log("hi")
-function renderQuestion() {
-  let q = questions[currentQuestion];
-  question.innerHTML = "<p>" + q.question + "</p>"
-  LMChoiceA.innerHTML = q.LMChoiceA;
-  LMChoiceB.innerHTML = q.LMChoiceB
-  LMChoiceC.innerHTML = q.LMChoiceC
-  LMChoiceD.innerHTML = q.LMChoiceD
+function LDrenderQuestion() {
+let LDq = LDquestions[LDcurrentQuestion];
+LDquestion.innerHTML = "<p>" + LDq.question + "</p>"
+LDChoiceA.innerHTML = q.LDChoiceA;
+LDChoiceB.innerHTML = q.LDChoiceB
+LDChoiceC.innerHTML = q.LDChoiceC
+LDChoiceD.innerHTML = q.LDChoiceD
 }
 function renderProgress(){
-for(letqIndex = 0; qIndex <= lastQuestion; qIndex++){
-LMprogress.innerHTML += "<div class = 'prog' id =" + qIndex +"><>"
+for(let LDqIndex = 0; qIndex <= LDlastQuestion; LDqIndex++){
+LDprogress.innerHTML += "<div class = 'LDprog' id =" + LDqIndex +"><>"
 }
 
 }
-LMTrainingQuiz.addEventListener("click",startQuiz);
+LDTrainingQuiz.addEventListener("click",startQuiz);
+
 //find food trait---------------------------------
 // $(document).ready(function(){
 $(".FindFood").click(function() {

@@ -38,8 +38,9 @@ body{
 }
 #LMquestions p{
     margin : 0;
-    padding : 15px;
-    font-size: 1.25em;
+    padding : 10px;
+    font-size: 2.25em;
+    font-style: Impact, sans-serif
 }
 #LMchoices{
     width : 480px;
@@ -78,7 +79,7 @@ body{
     margin-left : 5px;
     margin-right : 5px;
 }
-#LMscore{
+#LMscoreSection{
     margin : 20px auto;
     background-color: white;
     opacity: 0.8;
@@ -89,12 +90,224 @@ body{
     position: relative;
     display: none;
 }
-#LMscore img{
+#LMscoreSection img{
     position: absolute;
     top:100px;
     left:325px;
 }
-#LMscore p{
+#LMscoreSection p{
+    position: absolute;
+    display: block;
+    width : 59px;
+    height :59px;
+    top:130px;
+    left:325px;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+}
+
+#SJQuizSection{
+    margin : 20px auto;
+    background-color: blue;
+    background-image: linear-gradient(DodgerBlue, BlueViolet, DarkViolet, Fuchsia, DeepPink);
+    height: 500px;
+    width : 500px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px 0px;
+    position: relative;
+}
+#SJTraining{
+    font-size: 1.0em;
+    font-weight: bolder;
+    word-break: break-all;
+    width:250px;
+    height:300px;
+    border : 10px solid black;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    left:125px;
+    top:50px;
+    color : Black;
+}
+#SJTraining:hover{
+    border: 10px solid SkyBlue;
+    color : SkyBlue;
+}
+#SJquestions{
+    width:500px;
+    height : 125px;
+    position: absolute;
+    right:0;
+    top:0;
+}
+#SJquestions p{
+    margin : 0;
+    padding : 10px;
+    font-size: 2.25em;
+    font-style: Impact, sans-serif
+}
+#SJchoices{
+    width : 480px;
+    position: absolute;
+    right : 0;
+    top : 125px;
+    padding : 10px
+}
+.SJchoice{
+    display: inline-block;
+    width : 135px;
+    text-align: center;
+    border : 1px solid grey;
+    border-radius: 5px;
+    cursor: pointer;
+    padding : 5px;
+}
+.SJchoice:hover{
+    border : 2px solid grey;
+    font-weight: bold;
+}
+#SJprogress{
+    width : 500px;
+    position: absolute;
+    bottom : 0px;
+    right : 0px;
+    padding:5px;
+    text-align: right;
+}
+.SJprog{
+    width : 25px;
+    height : 25px;
+    border: 1px solid #000;
+    display: inline-block;
+    border-radius: 50%;
+    margin-left : 5px;
+    margin-right : 5px;
+}
+#SJscoreSection{
+    margin : 20px auto;
+    background-color: white;
+    opacity: 0.8;
+    height: 300px;
+    width : 700px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 15px 0px;
+    position: relative;
+    display: none;
+}
+#SJscoreSection img{
+    position: absolute;
+    top:100px;
+    left:325px;
+}
+#SJscoreSection p{
+    position: absolute;
+    display: block;
+    width : 59px;
+    height :59px;
+    top:130px;
+    left:325px;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+}
+
+#LDQuizSection{
+    margin : 20px auto;
+    background-color: blue;
+    background-image: linear-gradient(DodgerBlue, BlueViolet, DarkViolet, Fuchsia, DeepPink);
+    height: 500px;
+    width : 500px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px 0px;
+    position: relative;
+}
+#LDTraining{
+    font-size: 1.0em;
+    font-weight: bolder;
+    word-break: break-all;
+    width:250px;
+    height:300px;
+    border : 10px solid black;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    left:125px;
+    top:50px;
+    color : Black;
+}
+#LDTraining:hover{
+    border: 10px solid SkyBlue;
+    color : SkyBlue;
+}
+#LDquestions{
+    width:500px;
+    height : 125px;
+    position: absolute;
+    right:0;
+    top:0;
+}
+#LDquestions p{
+    margin : 0;
+    padding : 10px;
+    font-size: 2.25em;
+    font-style: Impact, sans-serif
+}
+#LDchoices{
+    width : 480px;
+    position: absolute;
+    right : 0;
+    top : 125px;
+    padding : 10px
+}
+.LDchoice{
+    display: inline-block;
+    width : 135px;
+    text-align: center;
+    border : 1px solid grey;
+    border-radius: 5px;
+    cursor: pointer;
+    padding : 5px;
+}
+.LDchoice:hover{
+    border : 2px solid grey;
+    font-weight: bold;
+}
+#LDprogress{
+    width : 500px;
+    position: absolute;
+    bottom : 0px;
+    right : 0px;
+    padding:5px;
+    text-align: right;
+}
+.LDprog{
+    width : 25px;
+    height : 25px;
+    border: 1px solid #000;
+    display: inline-block;
+    border-radius: 50%;
+    margin-left : 5px;
+    margin-right : 5px;
+}
+#LDscoreSection{
+    margin : 20px auto;
+    background-color: white;
+    opacity: 0.8;
+    height: 300px;
+    width : 700px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 15px 0px;
+    position: relative;
+    display: none;
+}
+#LDscoreSection img{
+    position: absolute;
+    top:100px;
+    left:325px;
+}
+#LDscoreSection p{
     position: absolute;
     display: block;
     width : 59px;

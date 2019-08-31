@@ -1,56 +1,54 @@
 <head>
   <link rel="stylesheet" type="text/css" href="PageW2.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
   <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 <body>
 <div id="LMQuizSection">
 <div id="LMTraining">Train Leg Muscle</div>
 <div id="LMQuiz" style="display: none">
-  <div id="LMquestions"></div>
+  <div id="LMQuestions"></div>
     <div id="LMchoices">
-      <div class="LMchoice" id="A" onclick="checkAnswer('LMA')"></div>
-      <div class="LMchoice" id="B" onclick="checkAnswer('LMB')"></div>
-      <div class="LMchoice" id="C" onclick="checkAnswer('LMC')"></div>
-      <div class="LMchoice" id="D" onclick="checkAnswer('LMD')"></div>
+      <div class="LMchoice" id="LMA" onclick="LMcheckAnswer('A')"></div>
+      <div class="LMchoice" id="LMB" onclick="LMcheckAnswer('B')"></div>
+      <div class="LMchoice" id="LMC" onclick="LMcheckAnswer('C')"></div>
+      <div class="LMchoice" id="LMD" onclick="LMcheckAnswer('D')"></div>
 </div>
-    <div id="LMprogress"></div>
+
   </div>
   <div id="LMscoreSection" style="display: none"></div>
 </div>
-<!-- //SJ Training ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-<!-- <br>
+<!-- SJ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 <div id="SJQuizSection">
-<div id="SJTraining">Train Jaw Stregnth</div>
+<div id="SJTraining">Train Leg Muscle</div>
 <div id="SJQuiz" style="display: none">
-  <div id="SJquestions"></div>
-<div id="SJchoices">
-      <div class="SJchoice" id="A" onclick="checkAnswer('SJA')"></div>
-      <div class="SJchoice" id="B" onclick="checkAnswer('SJB')"></div>
-      <div class="SJchoice" id="C" onclick="checkAnswer('SJC')"></div>
-      <div class="SJchoice" id="D" onclick="checkAnswer('SJD')"></div>
-</div>
-    <div id="SJprogress"></div>
-  </div>
-  <div id="SJscore" style="display: none"></div>
+  <div id="SJQuestions"></div>
+    <div id="SJchoices">
+      <div class="SJchoice" id="SJA" onclick="SJcheckAnswer('A')"></div>
+      <div class="SJchoice" id="SJB" onclick="SJcheckAnswer('B')"></div>
+      <div class="SJchoice" id="SJC" onclick="SJcheckAnswer('C')"></div>
+      <div class="SJchoice" id="SJD" onclick="SJcheckAnswer('D')"></div>
 </div>
 
- LD Training ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-<br>
-<div id="LDQuizSection">
-<div id="LDTraining">Loyalty Determination trait</div>
-<div id="LDQuiz" style="display: none">
-  <div id="LDquestions"></div>
-<div id="LDchoices">
-      <div class="LDchoice" id="A" onclick="checkAnswer('LDA')"></div>
-      <div class="LDchoice" id="B" onclick="checkAnswer('LDB')"></div>
-      <div class="LDchoice" id="C" onclick="checkAnswer('LDC')"></div>
-      <div class="LDchoice" id="D" onclick="checkAnswer('LDD')"></div>
-</div>
-    <div id="LDprogress"></div>
   </div>
-  <div id="LDscore" style="display: none;"></div>
+  <div id="SJscoreSection" style="display: none"></div>
 </div>
-<br> -->
+<!-- LD~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<div id="LDQuizSection">
+<div id="LDTraining">Train Leg Muscle</div>
+<div id="LDQuiz" style="display: none">
+  <div id="LDQuestions"></div>
+    <div id="LDchoices">
+      <div class="LDchoice" id="LDA" onclick="LDcheckAnswer('A')"></div>
+      <div class="LDchoice" id="LDB" onclick="LDcheckAnswer('B')"></div>
+      <div class="LDchoice" id="LDC" onclick="LDcheckAnswer('C')"></div>
+      <div class="LDchoice" id="LDD" onclick="LDcheckAnswer('D')"></div>
+</div>
+
+  </div>
+  <div id="LDscoreSection" style="display: none"></div>
+</div>
 <!-- ~~~~~~~~~~~FIND FOOD~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 <div id="energySources">
 <button class = "FindFood"> Find Food </button>

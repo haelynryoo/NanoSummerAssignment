@@ -1,56 +1,66 @@
-<button class = "SleepButton">Sleep</button>
-<p></p>
-<!-- SJ Training ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-<div id="LMTrainingQuiz">
-<button class = "LMTraining">Train Leg Muscle</button>
+<head>
+  <link rel="stylesheet" type="text/css" href="PageW2.css">
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+<div id="LMQuizSection">
+<div id="LMTraining">Train Leg Muscle</div>
 <div id="LMQuiz" style="display: none">
   <div id="LMquestions"></div>
-
-  <div id="LMchoices">
+    <div id="LMchoices">
       <div class="LMchoice" id="A" onclick="checkAnswer('LMA')"></div>
       <div class="LMchoice" id="B" onclick="checkAnswer('LMB')"></div>
       <div class="LMchoice" id="C" onclick="checkAnswer('LMC')"></div>
-      <div class="LMchoice" id="C" onclick="checkAnswer('LMD')"></div>
+      <div class="LMchoice" id="D" onclick="checkAnswer('LMD')"></div>
 </div>
     <div id="LMprogress"></div>
-</div>
-  <div id="LMscore" style="display: none"></div>
+  </div>
+  <div id="LMscoreSection" style="display: none"></div>
 </div>
 <!-- //SJ Training ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-<p></p>
-<button class = "SJTraining">Train Jaw Stregnth</button>
-<div class="SJTrainingQuiz">
+<!-- <br>
+<div id="SJQuizSection">
+<div id="SJTraining">Train Jaw Stregnth</div>
 <div id="SJQuiz" style="display: none">
   <div id="SJquestions"></div>
 <div id="SJchoices">
       <div class="SJchoice" id="A" onclick="checkAnswer('SJA')"></div>
       <div class="SJchoice" id="B" onclick="checkAnswer('SJB')"></div>
       <div class="SJchoice" id="C" onclick="checkAnswer('SJC')"></div>
-      <div class="SJchoice" id="C" onclick="checkAnswer('SJD')"></div>
+      <div class="SJchoice" id="D" onclick="checkAnswer('SJD')"></div>
 </div>
     <div id="SJprogress"></div>
-</div>
+  </div>
   <div id="SJscore" style="display: none"></div>
 </div>
-<!-- LD Training ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-<p></p>
-<button class = "LDTraining">Loyalty Determination trait</button>
-<div class="LDTrainingQuiz">
+
+ LD Training ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<br>
+<div id="LDQuizSection">
+<div id="LDTraining">Loyalty Determination trait</div>
 <div id="LDQuiz" style="display: none">
   <div id="LDquestions"></div>
 <div id="LDchoices">
       <div class="LDchoice" id="A" onclick="checkAnswer('LDA')"></div>
       <div class="LDchoice" id="B" onclick="checkAnswer('LDB')"></div>
       <div class="LDchoice" id="C" onclick="checkAnswer('LDC')"></div>
-      <div class="LDchoice" id="C" onclick="checkAnswer('LDD')"></div>
+      <div class="LDchoice" id="D" onclick="checkAnswer('LDD')"></div>
 </div>
     <div id="LDprogress"></div>
+  </div>
+  <div id="LDscore" style="display: none;"></div>
 </div>
-  <div id="LDscore" style="display: none"></div>
-</div>
-<p></p>
+<br> -->
 <!-- ~~~~~~~~~~~FIND FOOD~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<div id="energySources">
 <button class = "FindFood"> Find Food </button>
-<p></p>
+<button class = "SleepButton">Sleep</button>
+</div>
 <!-- ~~~~~~~~~~~~ENERGY COUNT~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-<p class = "energyCount"> You currently have 30 Energy Units </p>
+<div id="energyCount">
+<p class="energyCountPara">
+You currently have 30 Energy Units
+</p>
+</div>
+<script src="PageW2.js"></script>
+</body>

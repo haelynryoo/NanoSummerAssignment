@@ -1,14 +1,17 @@
-#SSQuizSection{
+body{
+
+}
+#LMQuizSection{
     margin : 20px auto;
     background-color: blue;
-    background-image: linear-gradient(DeepPink, Red, OrangeRed, Coral, Yellow);
+    background-image: linear-gradient(DodgerBlue, BlueViolet, DarkViolet, Fuchsia, DeepPink);
     height: 500px;
     width : 500px;
     border-radius: 10px;
     box-shadow: 0px 5px 15px 0px;
     position: relative;
 }
-#SSTraining{
+#LMTraining{
     font-size: 1.0em;
     font-weight: bolder;
     word-break: break-all;
@@ -22,31 +25,31 @@
     top:50px;
     color : Black;
 }
-#SSTraining:hover{
-    border: 10px solid Violet;
-    color : Violet;
+#LMTraining:hover{
+    border: 10px solid SkyBlue;
+    color : SkyBlue;
 }
-#SSquestions{
+#LMquestions{
     width:500px;
     height : 125px;
     position: absolute;
     right:0;
     top:0;
 }
-#SSquestions p{
+#LMquestions p{
     margin : 0;
     padding : 10px;
     font-size: 2.25em;
     font-style: Impact, sans-serif
 }
-#SSchoices{
+#LMchoices{
     width : 480px;
     position: absolute;
     right : 0;
     top : 125px;
     padding : 10px
 }
-.SSchoice{
+.LMchoice{
     display: inline-block;
     width : 135px;
     text-align: center;
@@ -55,11 +58,11 @@
     cursor: pointer;
     padding : 5px;
 }
-.SSchoice:hover{
+.LMchoice:hover{
     border : 2px solid grey;
     font-weight: bold;
 }
-#SSprogress{
+#LMprogress{
     width : 500px;
     position: absolute;
     bottom : 0px;
@@ -67,7 +70,7 @@
     padding:5px;
     text-align: right;
 }
-.SSprog{
+.LMprog{
     width : 25px;
     height : 25px;
     border: 1px solid #000;
@@ -76,7 +79,7 @@
     margin-left : 5px;
     margin-right : 5px;
 }
-#SSscoreSection{
+#LMscoreSection{
     margin : 20px auto;
     background-color: white;
     opacity: 0.8;
@@ -87,12 +90,12 @@
     position: relative;
     display: none;
 }
-#SSscoreSection img{
+#LMscoreSection img{
     position: absolute;
     top:100px;
     left:325px;
 }
-#SSscoreSection p{
+#LMscoreSection p{
     position: absolute;
     display: block;
     width : 59px;
@@ -103,18 +106,18 @@
     font-weight: bold;
     text-align: center;
 }
-/* //hf */
-#HFQuizSection{
+
+#SJQuizSection{
     margin : 20px auto;
     background-color: blue;
-    background-image: linear-gradient(DeepPink, Red, OrangeRed, Coral, Yellow);
+    background-image: linear-gradient(DodgerBlue, BlueViolet, DarkViolet, Fuchsia, DeepPink);
     height: 500px;
     width : 500px;
     border-radius: 10px;
     box-shadow: 0px 5px 15px 0px;
     position: relative;
 }
-#HFTraining{
+#SJTraining{
     font-size: 1.0em;
     font-weight: bolder;
     word-break: break-all;
@@ -128,31 +131,31 @@
     top:50px;
     color : Black;
 }
-#HFTraining:hover{
-    border: 10px solid Violet;
-    color : Violet;
+#SJTraining:hover{
+    border: 10px solid SkyBlue;
+    color : SkyBlue;
 }
-#HFquestions{
+#SJquestions{
     width:500px;
     height : 125px;
     position: absolute;
     right:0;
     top:0;
 }
-#HFquestions p{
+#SJquestions p{
     margin : 0;
     padding : 10px;
     font-size: 2.25em;
     font-style: Impact, sans-serif
 }
-#HFchoices{
+#SJchoices{
     width : 480px;
     position: absolute;
     right : 0;
     top : 125px;
     padding : 10px
 }
-.HFchoice{
+.SJchoice{
     display: inline-block;
     width : 135px;
     text-align: center;
@@ -161,11 +164,11 @@
     cursor: pointer;
     padding : 5px;
 }
-.HFchoice:hover{
+.SJchoice:hover{
     border : 2px solid grey;
     font-weight: bold;
 }
-#HFprogreHF{
+#SJprogress{
     width : 500px;
     position: absolute;
     bottom : 0px;
@@ -173,7 +176,7 @@
     padding:5px;
     text-align: right;
 }
-.HFprog{
+.SJprog{
     width : 25px;
     height : 25px;
     border: 1px solid #000;
@@ -182,7 +185,7 @@
     margin-left : 5px;
     margin-right : 5px;
 }
-#HFscoreSection{
+#SJscoreSection{
     margin : 20px auto;
     background-color: white;
     opacity: 0.8;
@@ -193,12 +196,12 @@
     position: relative;
     display: none;
 }
-#HFscoreSection img{
+#SJscoreSection img{
     position: absolute;
     top:100px;
     left:325px;
 }
-#HFscoreSection p{
+#SJscoreSection p{
     position: absolute;
     display: block;
     width : 59px;
@@ -209,18 +212,18 @@
     font-weight: bold;
     text-align: center;
 }
-/* //HF */
-#TSQuizSection{
+
+#LDQuizSection{
     margin : 20px auto;
     background-color: blue;
-    background-image: linear-gradient(DeepPink, Red, OrangeRed, Coral, Yellow);
+    background-image: linear-gradient(DodgerBlue, BlueViolet, DarkViolet, Fuchsia, DeepPink);
     height: 500px;
     width : 500px;
     border-radius: 10px;
     box-shadow: 0px 5px 15px 0px;
     position: relative;
 }
-#TSTraining{
+#LDTraining{
     font-size: 1.0em;
     font-weight: bolder;
     word-break: break-all;
@@ -234,31 +237,31 @@
     top:50px;
     color : Black;
 }
-#TSTraining:hover{
-    border: 10px solid Violet;
-    color : Violet;
+#LDTraining:hover{
+    border: 10px solid SkyBlue;
+    color : SkyBlue;
 }
-#TSquestions{
+#LDquestions{
     width:500px;
     height : 125px;
     position: absolute;
     right:0;
     top:0;
 }
-#TSquestions p{
+#LDquestions p{
     margin : 0;
     padding : 10px;
     font-size: 2.25em;
     font-style: Impact, sans-serif
 }
-#TSchoices{
+#LDchoices{
     width : 480px;
     position: absolute;
     right : 0;
     top : 125px;
     padding : 10px
 }
-.TSchoice{
+.LDchoice{
     display: inline-block;
     width : 135px;
     text-align: center;
@@ -267,11 +270,11 @@
     cursor: pointer;
     padding : 5px;
 }
-.TSchoice:hover{
+.LDchoice:hover{
     border : 2px solid grey;
     font-weight: bold;
 }
-#TSprogreTS{
+#LDprogress{
     width : 500px;
     position: absolute;
     bottom : 0px;
@@ -279,7 +282,7 @@
     padding:5px;
     text-align: right;
 }
-.TSprog{
+.LDprog{
     width : 25px;
     height : 25px;
     border: 1px solid #000;
@@ -288,7 +291,7 @@
     margin-left : 5px;
     margin-right : 5px;
 }
-#TSscoreSection{
+#LDscoreSection{
     margin : 20px auto;
     background-color: white;
     opacity: 0.8;
@@ -299,12 +302,12 @@
     position: relative;
     display: none;
 }
-#TSscoreSection img{
+#LDscoreSection img{
     position: absolute;
     top:100px;
     left:325px;
 }
-#TSscoreSection p{
+#LDscoreSection p{
     position: absolute;
     display: block;
     width : 59px;

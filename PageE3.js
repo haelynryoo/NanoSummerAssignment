@@ -11,12 +11,12 @@ console.log(SSscoreSection)
 
 let ArraySSQuestions = [
   {
-    SSQuestions: "What adjective is normally used to describe an Elephant?",
-    SSChoiceA: "Big",
-    SSChoiceB: "Mean",
-    SSChoiceC: "Small",
-    SSChoiceD: "Bossy",
-    SScorrect: "A"
+    SSQuestions: "What does a baby elephant weigh on average?",
+    SSChoiceA: "39kg",
+    SSChoiceB: "500kg",
+    SSChoiceC: "100kg",
+    SSChoiceD: "50kg",
+    SScorrect: "C"
   },
   {
     SSQuestions: "How many species of Elephant are there?",
@@ -27,13 +27,20 @@ let ArraySSQuestions = [
     SScorrect: "C"
   },
   {
-    SSQuestions: "What are Elephant Tusks made out of",
-    SSChoiceA: "plastic",
-    SSChoiceB: "cartilage",
-    SSChoiceC: "wood",
-    SSChoiceD: "ivory",
+    SSQuestions: "How is an elephants memory",
+    SSChoiceA: "Terrible",
+    SSChoiceB: "Mediocre",
+    SSChoiceC: "Good",
+    SSChoiceD: "Outstanding",
     SScorrect: "D"
-  },
+  },{
+    HFQuestions: "Where are elephants normally found in the wild?",
+    HFChoiceA: "Tundra",
+    HFChoiceB: "Savanna",
+    HFChoiceC: "Cities",
+    HFChoiceD: "Rain Forests",
+    HFcorrect: "B"
+  }
   ];
 
 const SSlastQuestion = ArraySSQuestions.length - 1;
@@ -101,29 +108,37 @@ console.log(HFscoreSection)
 
 let ArrayHFQuestions = [
   {
-    HFQuestions: "What is a baby elephant called",
-    HFChoiceA: "pup",
-    HFChoiceB: "Calf",
-    HFChoiceC: "Omega",
-    HFChoiceD: "Baby",
-    HFcorrect: "B"
+    HFQuestions: "What is the trunk normally used for",
+    HFChoiceA: "Playing",
+    HFChoiceB: "Fighting",
+    HFChoiceC: "communicating",
+    HFChoiceD: "smelling",
+    HFcorrect: "C"
   },
   {
-    HFQuestions: "What is a group of elephants called",
-    HFChoiceA: "Circus of Elephants",
-    HFChoiceB: "Pack Of Elephants",
-    HFChoiceC: "Family Of Elephants",
-    HFChoiceD: "Herd Of Elephants",
+    HFQuestions: "What is a Elephants predator",
+    HFChoiceA: "Lions",
+    HFChoiceB: "Hawks",
+    HFChoiceC: "Snakes",
+    HFChoiceD: "Humans",
     HFcorrect: "D"
   },
   {
-    HFQuestions: "Who leads the Herd of Elephants?",
-    HFChoiceA: "Female",
-    HFChoiceB: "Males",
-    HFChoiceC: "Calfs",
-    HFChoiceD: "Humans",
-    HFcorrect: "A"
+    HFQuestions: "Which is not a type of elephant?",
+    HFChoiceA: "Asian Elephant",
+    HFChoiceB: "Egyptian Elephant",
+    HFChoiceC: "African Forest Elephant",
+    HFChoiceD: "African Bush Elephant",
+    HFcorrect: "B"
   },
+  {
+    HFQuestions: "What is something that is not used to describe an elephant?",
+    HFChoiceA: "Endangered",
+    HFChoiceB: "Inteligent",
+    HFChoiceC: "Dangerous",
+    HFChoiceD: "Biggest land Animals",
+    HFcorrect: "C"
+  }
   ];
 
 const HFlastQuestion = ArrayHFQuestions.length - 1;
@@ -191,29 +206,36 @@ console.log(TSscoreSection)
 
 let ArrayTSQuestions = [
   {
-    TSQuestions: "What type of animal is an elephant",
-    TSChoiceA: "Amphibian",
-    TSChoiceB: "Marsupial",
-    TSChoiceC: "Mammal",
-    TSChoiceD: "Reptile",
+    TSQuestions: "How long are Female Elephants pregnant",
+    TSChoiceA: "9 months",
+    TSChoiceB: "22 months",
+    TSChoiceC: "1 year",
+    TSChoiceD: "1 month",
     TScorrect: "B"
   },
   {
-    TSQuestions: "What does an elephant eat?",
-    TSChoiceA: "Other Elephants",
-    TSChoiceB: "Plants",
-    TSChoiceC: "Smaller Animals",
-    TSChoiceD: "Fish",
+    TSQuestions: "What do elephants symbolize in many african cultures",
+    TSChoiceA: "Hospitality",
+    TSChoiceB: "Size",
+    TSChoiceC: "Power",
+    TSChoiceD: "Free Elephant Rides nearby",
     TScorrect: "B"
   },
   {
-    TSQuestions: "What do long tusks indicate about an elephant?",
-    TSChoiceA: "Its gender",
-    TSChoiceB: "Its stregnth",
-    TSChoiceC: "Its Age",
-    TSChoiceD: "Its personality",
+    TSQuestions: "How often do female elephants have babies",
+    TSChoiceA: "every 3-5 years",
+    TSChoiceB: "every 10 years",
+    TSChoiceC: "every 2-4 years",
+    TSChoiceD: "they only have 1 baby in their lifetime",
     TScorrect: "C"
-  },
+  },{
+    HFQuestions: "Why do people poach elephants?",
+    HFChoiceA: "They eat crops",
+    HFChoiceB: "Their tusks are valueable",
+    HFChoiceC: "their bones can cure diseases",
+    HFChoiceD: "They are dangerous to Humans",
+    HFcorrect: "B"
+  }
   ];
 
 const TSlastQuestion = ArrayTSQuestions.length - 1;

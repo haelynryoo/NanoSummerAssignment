@@ -19,28 +19,36 @@ console.log(LMscoreSection)
 
 let ArrayLMQuestions = [
   {
-    LMQuestions: "What is the leader of a wolf pack called?",
-    LMChoiceA: "Number One",
-    LMChoiceB: "Alpha",
-    LMChoiceC: "Omega",
-    LMChoiceD: "Boss",
-    LMcorrect: "B"
+    LMQuestions: "What is the wolfs population in Yellow Stone National Park",
+    LMChoiceA: "104",
+    LMChoiceB: "1312",
+    LMChoiceC: "56",
+    LMChoiceD: "276",
+    LMcorrect: "A"
   },
   {
-    LMQuestions: "What is the scientific name of the wolf",
-    LMChoiceA: "Lupin Anther",
-    LMChoiceB: "Animalia Wolfia",
-    LMChoiceC: "amphiphilic Lupic",
-    LMChoiceD: "Canis Lupis",
+    LMQuestions: "Which wolves will mate and have pups",
+    LMChoiceA: "All female wolves in the pack",
+    LMChoiceB: "The Hunters",
+    LMChoiceC: "It is random",
+    LMChoiceD: "Alpha Female",
     LMcorrect: "D"
   },
   {
-    LMQuestions: "In which fairytale does the wolf attack pigs",
-    LMChoiceA: "Beauty and the Beast",
-    LMChoiceB: "Cinderella",
-    LMChoiceC: "Three Little Pigs",
-    LMChoiceD: "The Ugly Duckling",
+    LMQuestions: "What eye color is a wolf born with",
+    LMChoiceA: "yellow",
+    LMChoiceB: "brown",
+    LMChoiceC: "blue",
+    LMChoiceD: "green",
     LMcorrect: "C"
+  },
+  {
+    LDQuestions: "What time period does the earliest wolf drawings date back to",
+    LDChoiceA: "2019",
+    LDChoiceB: "1765",
+    LDChoiceC: "20000 B.C",
+    LDChoiceD: "1500 A.D",
+    LDcorrect: "C"
   },
   ];
 
@@ -111,29 +119,37 @@ console.log(SJscoreSection)
 
 let ArraySJQuestions = [
   {
-    SJQuestions: "What is the leader of a wolf pack called?",
-    SJChoiceA: "Number One",
-    SJChoiceB: "Alpha",
-    SJChoiceC: "Omega",
-    SJChoiceD: "Boss",
+    SJQuestions: "What is a wolf diet",
+    SJChoiceA: "Only air and sunligh",
+    SJChoiceB: "carnivore",
+    SJChoiceC: "omnivore",
+    SJChoiceD: "herbivore",
     SJcorrect: "B"
   },
   {
-    SJQuestions: "What is the scientific name of the wolf",
-    SJChoiceA: "Lupin Anther",
-    SJChoiceB: "Animalia Wolfia",
-    SJChoiceC: "amphiphilic Lupic",
-    SJChoiceD: "Canis Lupis",
+    SJQuestions: "What is the name of a famous wolf",
+    SJChoiceA: "The big bad wolf",
+    SJChoiceB: "Wolf Man",
+    SJChoiceC: "Wolverine",
+    SJChoiceD: "She Wolf",
+    SJcorrect: "A"
+  },
+  {
+    SJQuestions: "How much can wolves eat in one sitting",
+    SJChoiceA: "15kg",
+    SJChoiceB: "3kg",
+    SJChoiceC: "1kg",
+    SJChoiceD: "9kg",
     SJcorrect: "D"
   },
   {
-    SJQuestions: "In which fairytale does the wolf attack pigs",
-    SJChoiceA: "Beauty and the Beast",
-    SJChoiceB: "Cinderella",
-    SJChoiceC: "Three Little Pigs",
-    SJChoiceD: "The Ugly Duckling",
-    SJcorrect: "C"
-  },
+    LDQuestions: "what is the average size of a pack of wolves ",
+    LDChoiceA: "2",
+    LDChoiceB: "10",
+    LDChoiceC: "30",
+    LDChoiceD: "700",
+    LDcorrect: "C"
+  }
   ];
 
 const SJlastQuestion = ArraySJQuestions.length - 1;
@@ -203,29 +219,37 @@ console.log(LDscoreSection)
 
 let ArrayLDQuestions = [
   {
-    LDQuestions: "What is the leader of a wolf pack called?",
-    LDChoiceA: "Number One",
-    LDChoiceB: "Alpha",
-    LDChoiceC: "Omega",
-    LDChoiceD: "Boss",
+    LDQuestions: "What type of animal is a wolf?",
+    LDChoiceA: "marsupial",
+    LDChoiceB: "mammal",
+    LDChoiceC: "reptile",
+    LDChoiceD: "amphibian",
     LDcorrect: "B"
   },
   {
-    LDQuestions: "What is the scientific name of the wolf",
-    LDChoiceA: "Lupin Anther",
-    LDChoiceB: "Animalia Wolfia",
-    LDChoiceC: "amphiphilic Lupic",
-    LDChoiceD: "Canis Lupis",
-    LDcorrect: "D"
+    LDQuestions: "what is a baby wolf called",
+    LDChoiceA: "calf",
+    LDChoiceB: "pup",
+    LDChoiceC: "baby",
+    LDChoiceD: "small wolf",
+    LDcorrect: "B"
   },
   {
-    LDQuestions: "In which fairytale does the wolf attack pigs",
-    LDChoiceA: "Beauty and the Beast",
-    LDChoiceB: "Cinderella",
-    LDChoiceC: "Three Little Pigs",
-    LDChoiceD: "The Ugly Duckling",
-    LDcorrect: "C"
+    LDQuestions: "How do wolves normally hunt",
+    LDChoiceA: "Along",
+    LDChoiceB: "As a pack",
+    LDChoiceC: "Sometimes alone sometimes as a pack",
+    LDChoiceD: "they eat plants",
+    LDcorrect: "B"
   },
+  {
+    LDQuestions: "How are wolves portrayed in stories",
+    LDChoiceA: "As the brave War hero",
+    LDChoiceB: "the damsel in distress",
+    LDChoiceC: "the villan",
+    LDChoiceD: "the witness",
+    LDcorrect: "C"
+  }
   ];
 
 const LDlastQuestion = ArrayLDQuestions.length - 1;

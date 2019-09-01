@@ -1,0 +1,27 @@
+#row {
+  display: flex;
+  flex-direction: row;
+  background-color: Yellow;
+}
+
+#row > div {
+  height: 200px;
+  width: 200px;
+}
+#Images {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  animation-name: ImageBackgroundAnimation;
+  animation-duration: 4s;
+}
+.img-thumbnail {
+filter: grayscale(100%);
+}
+
+@keyframes ImageBackgroundAnimation {
+  0%{background-color: white}
+  25%{background-color: Lavender}
+  50%{background-color: skyblue}
+  100%{background-color: white}
+}
